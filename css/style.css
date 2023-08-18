@@ -100,13 +100,15 @@ padding-right: 15px; */
 
 .contact {
   display: flex;
+  align-items: center;
   list-style: none;
-  margin: auto;
   padding: 0px;
-  padding-left: 290px;
+  margin-left: auto;
 }
 
 .contact a {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -312,6 +314,8 @@ main li {
 
 .equipment-section {
   background: var(--var-color-fondo1);
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /* Trabajamos en los titulos del cuerpo h2 */
