@@ -505,10 +505,10 @@ main li {
 }
 /* En esta posición trabajamos en el footer */
 
-footer {
-  min-width: 250;
-  /* height: 252px; */
+.container-footer {
+  display: flex;
   padding-left: 15px;
+  padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--var-color-fondo);
@@ -617,6 +617,8 @@ footer {
   flex-direction: column;
   margin: 0 auto;
   margin-top: 59px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .container-icons-clientes {
@@ -682,6 +684,23 @@ footer {
 .cliente-6 {
   width: 93.73px;
   height: 43.93px;
+}
+
+.tittle-footer {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.7142em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.cont-footer {
+  margin-right: 70px;
 }
 
 .link-footer {
