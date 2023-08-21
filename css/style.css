@@ -650,7 +650,9 @@ main li {
 }
 
 .icons-clientes:hover,
-.icons-clientes-6:hover {
+.icons-clientes:focus,
+.icons-clientes-6:hover,
+.icons-clientes-6:focus {
   fill: #2196f3;
   border: 2px solid var(--var-color-fondo-hover-focus);
   border-radius: 2px;
